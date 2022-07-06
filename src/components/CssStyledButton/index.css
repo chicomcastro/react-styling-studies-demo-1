@@ -1,0 +1,26 @@
+.css-styled-button {
+  padding: 16px;
+  width: 320px;
+}
+
+.css-styled-button:hover {
+  background-color: yellowgreen;
+}
+
+@media screen and (max-width: 1000px) {
+  .css-styled-button {
+    padding: 24px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .css-styled-button {
+    padding: 32px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .css-styled-button {
+    padding: 40px;
+  }
+}
